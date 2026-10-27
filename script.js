@@ -1,4 +1,4 @@
-// A birthday keepsake based on the memories Cristopher shared. No tracking.
+// A birthday keepsake based on the memories Ale shared. No tracking.
 const chapters = [
   {
     visual: 'visual-start', label: 'CAPÍTULO I', symbol: '✧',
