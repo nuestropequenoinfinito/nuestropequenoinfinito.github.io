@@ -1,3 +1,33 @@
+// Apertura automática: medianoche del 31 de diciembre de 2026 en Argentina (UTC-03:00).
+// Este contador es visual; el contenido de un repositorio público sigue siendo accesible.
+const COUNTDOWN_OPENING_TIME = Date.parse('2026-12-31T00:00:00-03:00');
+let countdownTimer = null;
+function updateBirthdayCountdown() {
+  const remaining = Math.max(0, COUNTDOWN_OPENING_TIME - Date.now());
+  if (remaining === 0) {
+    document.documentElement.classList.remove('site-lock-active');
+    const gate = document.getElementById('countdownGate');
+    if (gate) gate.hidden = true;
+    if (countdownTimer !== null) window.clearInterval(countdownTimer);
+    return;
+  }
+  const totalSeconds = Math.floor(remaining / 1000);
+  const values = {
+    countdownDays: Math.floor(totalSeconds / 86400),
+    countdownHours: Math.floor((totalSeconds % 86400) / 3600),
+    countdownMinutes: Math.floor((totalSeconds % 3600) / 60),
+    countdownSeconds: totalSeconds % 60
+  };
+  for (const [id, value] of Object.entries(values)) {
+    const element = document.getElementById(id);
+    if (element) element.textContent = String(value).padStart(2, '0');
+  }
+}
+updateBirthdayCountdown();
+if (document.documentElement.classList.contains('site-lock-active')) {
+  countdownTimer = window.setInterval(updateBirthdayCountdown, 1000);
+}
+
 // A birthday keepsake based on the memories Ale shared. No tracking.
 const chapters = [
   {
