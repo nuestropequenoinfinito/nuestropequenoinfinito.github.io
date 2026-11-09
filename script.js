@@ -4,7 +4,7 @@ const chapters = [
     visual: 'visual-start', label: 'CAPÍTULO I', symbol: '✧',
     kicker: 'UN TEAM DE WHATSAPP',
     title: 'Todo comenzó <em>con un chisme.</em>',
-    text: 'Mi amor, todavía me hace sonreír recordar cómo empezó todo. ¿Quién hubiera dicho que un chisme en un team de WhatsApp terminaría siendo el comienzo de nuestra historia? Tú y otra chica estaban hablando de mí en aquel canal, y yo, de administrador, terminé diciéndoles que las sacaría si no me contaban el chisme., qué manera de conocernos.\n\nPero lo que me hizo quedarme no fue el chisme. Fuiste tú. Me llamó muchísimo la atención lo sociable que eras, la forma tan bonita en la que te expresabas y esa alegría tuya que se notaba incluso detrás de una pantalla. Yo era mucho más reservado, y aun así me encantaba hablar contigo. No sabía lo que iba a pasar después, amor, pero ya eras alguien que me hacía sonreír.',
+    text: 'Mi amor, todavía me hace sonreír recordar cómo empezó todo. ¿Quién hubiera dicho que un chisme en un team de WhatsApp terminaría siendo el comienzo de nuestra historia? Tú y otra chica estaban hablando de mí en aquel canal, y yo, de administrador, terminé diciéndoles que las sacaría si no me contaban el chisme. Qué manera tan inesperada de conocernos.\n\nPero lo que me hizo quedarme no fue el chisme. Fuiste tú. Me llamó muchísimo la atención lo sociable que eras, la forma tan bonita en la que te expresabas y esa alegría tuya que se notaba incluso detrás de una pantalla. Yo era mucho más reservado, y aun así me encantaba hablar contigo. No sabía lo que iba a pasar después, amor, pero ya eras alguien que me hacía sonreír.',
     footnote: 'A veces una historia importante comienza de la manera menos importante.'
   },
   {
@@ -18,7 +18,7 @@ const chapters = [
     visual: 'visual-days', label: 'CAPÍTULO III', symbol: '☼',
     kicker: 'UN CONCIERTO Y OTRA BROMA',
     title: '¿Y si querías <em>otra mamá?</em>',
-    text: 'Una vez fui a un concierto y subí una foto con mi mamá. Y tú, con toda tu ocurrencia, me preguntaste si no quería otra mamá, porque querías ser su novia. Amor, ¿cómo se supone que uno se olvide de semejante cosa?.\n\nDespués hubo otro chisme que terminó llevándonos a hablar por privado. Nos quedamos conversando varios días y yo me sentía cada vez más cómodo contigo. No me acuerdo de cada palabra exacta, pero sí de cómo me hacía sentir hablarte.\n\nY de pronto ya no podía seguir pretendiendo que todo era una broma. Me gustabas, Mia. Me gustabas en serio, y me estaba dando miedo confesártelo.',
+    text: 'Una vez fui a un concierto y subí una foto con mi mamá. Y tú, con toda tu ocurrencia, me preguntaste si no quería otra mamá, porque querías ser su novia. Amor, ¿cómo se supone que uno se olvide de semejante cosa?\n\nDespués hubo otro chisme que terminó llevándonos a hablar por privado. Nos quedamos conversando varios días y yo me sentía cada vez más cómodo contigo. No me acuerdo de cada palabra exacta, pero sí de cómo me hacía sentir hablarte.\n\nY de pronto ya no podía seguir pretendiendo que todo era una broma. Me gustabas, Mia. Me gustabas en serio, y me estaba dando miedo confesártelo.',
     footnote: 'Una foto con mi mamá. Y un recuerdo que sigue haciéndome sonreír.'
   },
   {
@@ -39,7 +39,7 @@ const chapters = [
     visual: 'visual-days', label: 'CAPÍTULO VI', symbol: '10',
     kicker: '10 DE ENERO DE 2026',
     title: 'Un sí <em>a nuestra manera.</em>',
-    text: 'El 10 de enero te pregunté por WhatsApp si querías ser mi novia. Y tú me dijiste que me amabas. También me contaste que eras desconfiada, que te daba miedo dar paeres tan grandes y que necesitabas paciencia para animarte a intentarlo.\n\nMe dijiste que, si yo podía acompañarte con paciencia, sí querías ser mi pareja. Y yo no tuve ninguna duda: para mí fue un sí desde ese mismo instante. Lo gracioso es que hasta hace poco descubrí que tú no sabías cómo había entendido yo tu respuesta., amor, para mí éramos novios desde aquel 10 de enero.\n\nPor eso cada día 10 era nuestro aniversario. Te amo, Mia. Y aunque ahora nuestra situación sea distinta, ese día va a seguir siendo parte de una historia que significó muchísimo para mí.',
+    text: 'El 10 de enero te pregunté por WhatsApp si querías ser mi novia. Y tú me dijiste que me amabas. También me contaste que eras desconfiada, que te daba miedo dar paeres tan grandes y que necesitabas paciencia para animarte a intentarlo.\n\nMe dijiste que, si yo podía acompañarte con paciencia, sí querías ser mi pareja. Y yo no tuve ninguna duda: para mí fue un sí desde ese mismo instante. Lo gracioso es que hasta hace poco descubrí que tú no sabías cómo había entendido yo tu respuesta. Para mí éramos novios desde aquel 10 de enero.\n\nPor eso cada día 10 era nuestro aniversario. Te amo, Mia. Y aunque ahora nuestra situación sea distinta, ese día va a seguir siendo parte de una historia que significó muchísimo para mí.',
     footnote: 'No fue una respuesta de película; fue una respuesta honesta.'
   },
   {
